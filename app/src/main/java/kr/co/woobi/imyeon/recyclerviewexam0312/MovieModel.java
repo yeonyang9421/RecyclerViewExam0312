@@ -6,6 +6,9 @@ public class MovieModel {
     double rating;
 
 
+    public MovieModel() {
+    }
+
     public MovieModel(int movieImage, String title, double rating) {
         this.movieImage = movieImage;
         this.title = title;
